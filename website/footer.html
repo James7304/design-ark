@@ -1,0 +1,83 @@
+
+<style>
+
+    .footer{
+        
+        background-color: brown;
+
+        border:1px;
+        border-style: solid;
+        border-color: black;
+
+        bottom:0;
+        width:100% - 32px;
+
+        padding: 15px;
+        padding-top:5px;
+
+        position:static;
+    }
+
+    .footer p{
+        
+        font-family:'Consolas';
+    }
+
+    .footer .topButton{
+        float:right;
+        color:black;
+        cursor:pointer;
+
+        font-family:'Consolas';
+    }
+
+    .footer .footer-links{
+
+        text-align: center;
+        list-style-type: none;
+
+        margin: 0;
+        padding: 0;
+    
+    }
+
+    .footer .footer-links li {
+        display:inline-block;
+    }
+
+    .footer .footer-links li a {
+  
+        color: black;
+
+        padding-left: 14px;
+        padding-right: 14px;
+        
+        font-family:'Consolas';
+    }
+
+</style>
+
+<script>
+    function backToTop(){
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<footer id="footer" class="footer">
+
+    <p>
+        Contact us: <br>
+        Email: <a href="mailto:admin@designark.co.uk" style="color: black;">admin@designark.co.uk</a> <br>
+        Phone No: +1 234 567890<br>
+    </p>
+
+    <a id="topButton" onclick="backToTop()" class="topButton"><u>Back to Top</u></a>
+
+    <ul class="footer-links">
+        <li><a href="downloads.php" id="footer-link-first">Downloads</a></li>
+        <li><a href="userdocs.php" id="footer-link-second">User-Docs</a></li>
+    </ul>
+
+
+</footer>
