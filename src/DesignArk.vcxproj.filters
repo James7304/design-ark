@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{d2e97fb7-6b5b-4dd4-83aa-c58ecf7e4e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Views">
+      <UniqueIdentifier>{6231e2be-d611-4d55-8a44-e7fbbf09678d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Infrastructure">
+      <UniqueIdentifier>{6ae17247-8d19-42a8-9faa-8e741fdede54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Documents">
+      <UniqueIdentifier>{97503369-d6a7-4538-896a-2e943d55e84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Boxes">
+      <UniqueIdentifier>{068dfd2b-2508-4333-911a-b1fd5708c6b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{02e849cc-2beb-4a69-a469-8a4689573ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dialog Boxes\CSmartColour">
+      <UniqueIdentifier>{86662db3-da61-46f2-a72b-bf6093687b48}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CAppObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextEditorObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextLineObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CDocView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextDocView.h">
+      <Filter>Views</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="DesignArk.h">
+      <Filter>Infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextDocument.h">
+      <Filter>Documents</Filter>
+    </ClInclude>
+    <ClInclude Include="CTextHandler.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmartColour.h">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmartColourTypes.h">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmartColourStatements.h">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmartColourBuiltin.h">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClInclude>
+    <ClInclude Include="CSmartColourOther.h">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClInclude>
+    <ClInclude Include="CAboutDlg.h">
+      <Filter>Dialog Boxes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CAppObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextEditorObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextLineObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CDocView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextDocView.cpp">
+      <Filter>Views</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="DesignArk.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextDocument.cpp">
+      <Filter>Documents</Filter>
+    </ClCompile>
+    <ClCompile Include="CTextHandler.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmartColour.cpp">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmartColourTypes.cpp">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmartColourStatements.cpp">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmartColourBuiltin.cpp">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClCompile>
+    <ClCompile Include="CSmartColourOther.cpp">
+      <Filter>Dialog Boxes\CSmartColour</Filter>
+    </ClCompile>
+    <ClCompile Include="CAboutDlg.cpp">
+      <Filter>Dialog Boxes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DesignArk.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DesignArkDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\DesignArk.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\caret.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\..\xampp\htdocs\DesignArk\img\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Downloads\logo (1).ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\arrow_right_click.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\arrow_right.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\DesignArk.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
